@@ -4,13 +4,22 @@ body, html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+/*a { color:blue; text-decoration: none;}*/
 .bar {
     background-color: #f9f9fb;
     padding:15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
+h1 {
+    color: green;
+}
+
+h3 {
+    color: goldenrod;
+}
+
 .content {
     max-width: 1440px;
     margin: auto;
@@ -32,7 +41,14 @@ a { color:blue; text-decoration: none;}
 }
 .sidebar {
     border-right: solid 1px #cdcdcd;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkseagreen;
 }
+
 figure {
-    text-align: center;
+    
+    text-align: center;    
+}
+figure img {
+    width: 400px;
 }
