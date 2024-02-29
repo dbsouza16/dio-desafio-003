@@ -13,11 +13,21 @@ ul { list-style: none; padding-left: 5px; }
 }
 
 h1 {
-    color: green;
+    color: darkblue;
+}
+
+h2 {
+    color: darkblue;
 }
 
 h3 {
-    color: goldenrod;
+    color: darkslateblue;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    
 }
 
 .content {
@@ -34,7 +44,15 @@ h3 {
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
+    display: block;
+    
 }
+
+.footer img {
+    display: inline;
+    width: auto;      
+}
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
@@ -45,10 +63,17 @@ h3 {
     color: darkseagreen;
 }
 
-figure {
-    
+figure {    
     text-align: center;    
 }
+
+figcaption {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    text-align: center;    
+}
+
 figure img {
     width: 400px;
 }
